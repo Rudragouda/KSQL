@@ -4,7 +4,7 @@ KSQL Implementation for RPB service status.
 
 Problem statement: KSQL Implementation for RPB service status using KSQLDB streams and tables.
 
-Solution : Developed an API to read notification message from KSQL streams and table to get RPB service status(Up/Down) for given business date which is published on to 'XYZ' kafka topic. Once message is published into kafka topic KSQL stream should read the message put into KTable after stream processing with structure format.
+Solution : Developed an API to read notification message from KSQL streams and table to get RPB service status(Up/Down) for given business date which is published onto kafka topic. Once message is published into kafka topic KSQL stream should read the message put into KTable after stream processing with structure format.
 
            * ksqlDB is a database for building stream processing applications on top of Apache Kafka.
            * Streams and tables - Create relations with schemas over your Apache Kafka topic data
